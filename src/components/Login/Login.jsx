@@ -18,7 +18,10 @@ export default function Login() {
             backgroundAttachment: 'fixed',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
+            height: '100vh',
+            width: '100vw',
+            overflow: 'hidden'
         }}>
             <Stack
                 sx={{
